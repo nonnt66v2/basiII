@@ -1,0 +1,35 @@
+  1) lineeGuidaProg.txt (workflow obbligatorio)
+
+   - Non è obbligatorio il tipo di progetto, ma è obbligatorio il metodo: Issue → Branch → PR → Review con Git.
+   - Ogni issue: titolo chiaro, descrizione (contesto/obiettivo/scope/note), criteri Done-when verificabili, label, 
+  assignee.
+   - Naming branch obbligatorio: issue-<ID>-<breve-descrizione>.
+   - Ogni PR deve includere Closes #ID, cosa cambia, come testare, checklist.
+   - Review obbligatoria (se sei solo, reviewer = docente).
+   - Repo deve contenere: schema/constraint, script setup-migrazione, query/pipeline, seed/generatori, benchmark 
+  replicabili, README aggiornato.
+   - Minimi: 10 issue chiuse + 10 PR mergiate + 1 review per PR.
+
+  2) seminari.txt (facoltativi)
+
+   - Se fatto bene, l’argomento non viene chiesto all’orale.
+   - Durata 30–45 min, esposizione strutturata, almeno 1 esempio concreto, materiale inviato prima.
+   - Possibile individuale o gruppo (contributo equilibrato).
+
+  3) tipoProgetto.txt (scelta libera)
+
+   - Opzioni: NoSQL classico, Data Warehouse classico, progetto ambizioso docente.
+   - Nessuna penalizzazione per tipologia: conta qualità/coerenza.
+   - AI/LLM consentiti e incentivati, ma da dichiarare e tracciare.
+
+  Schema pratico del lavoro da fare
+
+   1. Scegli tipologia progetto e miniworld/dataset.
+   2. Definisci backlog iniziale (almeno 10 issue ben fatte).
+   3. Per ogni issue: crea branch con naming richiesto.
+   4. Sviluppa + testa + aggiorna README.
+   5. Apri PR con Closes #ID, evidenze test/benchmark.
+   6. Fai review incrociata (o docente se singolo), poi merge.
+   7. Compila survey/tracklist AI e stima ore per issue/PR.
+   8. Ripeti ciclo fino ai requisiti minimi.
+
