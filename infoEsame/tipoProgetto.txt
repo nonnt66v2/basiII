@@ -1,0 +1,67 @@
+Gentili Studenti, 
+
+
+Per l’anno in corso, i progetti del corso potranno essere scelti tra tre tipologie:
+
+progetto NoSQL classico;
+progetto Data Warehouse classico;
+Progetti "ambiziosi" e "difficili" proposti dai docenti!
+La scelta del progetto è libera.
+
+Questo significa che chi preferisce lavorare su un progetto NoSQL classico o su un progetto Data Warehouse può farlo tranquillamente: la scelta della tipologia non comporta penalizzazioni nella valutazione. Quello che conta, come sempre, è la qualità del lavoro svolto, la coerenza progettuale e la capacità di realizzare una soluzione ben pensata e ben discussa.
+
+Detto questo, tra le tre opzioni ce n’è una che quest’anno ha un carattere più sperimentale e più aperto.I progetti proposti dal docente nascono infatti come una sfida un po’ più ambiziosa, costruita attorno a temi attuali come collaborazione strutturata, basi di dati non relazionali, tracciabilità delle decisioni, branching e uso consapevole degli LLM.
+
+Non è una scelta obbligata, ma è certamente una scelta coraggiosa. E sì, si può dire anche così: scegliere quella proposta è il genere di cosa che rende il docente moderatamente felice.
+
+Va anche precisato che questa proposta è in divenire. Pur avendo una struttura già definita, potrà essere affinata, rimodulata o estesa durante il semestre.
+
+I gruppi che decideranno di lavorarci non si limiteranno quindi a implementare un task assegnato, ma potranno essere coinvolti anche nell’evoluzione stessa della proposta, contribuendo con osservazioni, migliorie, estensioni o possibili riorganizzazioni di alcune parti. In questo senso, si tratta di un progetto che lascia più spazio di altri alla co-costruzione del lavoro.
+
+Uso di LLM e strumenti di AI generativa
+Per tutti i progetti del corso è consentito (anzi, è incentivato) l’uso di LLM e strumenti di AI generativa a supporto dello sviluppo.
+
+Questi strumenti possono essere utilizzati, ad esempio, per: brainstorming; generazione di codice; supporto alla scrittura di query; debugging; testing; documentazione.
+
+L’importante è che il loro utilizzo venga dichiarato in modo trasparente. Ogni gruppo dovrà quindi indicare:
+
+se ha usato strumenti AI
+dove li ha usati
+come li ha usati
+Inoltre, dovrà essere mantenuta una tracklist sintetica delle attività in cui tali strumenti sono stati impiegati, secondo il formato che verrà fornito successivamente insieme ai survey e agli altri materiali del corso.
+
+Resta naturalmente inteso che ogni gruppo dovrà essere in grado di comprendere e discutere quanto realizzato.
+
+Progetto di tipo No-SQL
+I progetti che rientrano in questa categoria devono soddisfare alcuni requisiti minimi. In particolare, poiché durante il corso saranno enfatizzati concetti come le proprietà BASE, il teorema CAP e il concetto di collection, i progetti orientati al paradigma “No-SQL” devono:
+
+·      Prevedere la ricerca online di uno o più dataset pubblici da utilizzare come miniworld del progetto; Utilizzare un DBMS o un approccio No-SQL tra quelli presentati a lezione (es. MongoDB, Neo4j, XML, DOM...);
+
+·      Includere almeno cinque entità (collection) collegate semanticamente attraverso uno o più attributo condiviso (l’equivalente di una foreign key);
+
+·      Implementare le operazioni CRUD in modo efficiente e coerente, rispettando le proprietà BASE; Integrare un’operazione di JOIN tra più collection, rispettando almeno due (a scelta) dei tre vincoli del teorema CAP; gestire gli indici.
+
+·      Prevedere lo sviluppo di una interfaccia utente (anche minimale) che consenta in modo interattivo l’esecuzione delle operazioni CRUD e della JOIN.
+
+Un esempio di progetto potrebbe essere l’“Analisi di film e recensioni da parte degli utenti” basato su due dataset no-sql (due colletion), uno composto da Film (titolo, anno, regista, genere, id_film) e uno composto da Recensioni (id_review, id_film, utente, voto, testo).
+
+Progetto di tipo Datawarehouse
+I progetti che rientrano in questa categoria devono soddisfare alcuni requisiti minimi. In particolare, poiché durante il corso verranno introdotti e approfonditi concetti come l'architettura di un data warehouse, i processi ETL (Extract, Transform, Load), l’uso di strumenti come Pentaho e Kettle, gli schemi dimensionali (es. a stella o a fiocco di neve) e le interrogazioni OLAP, i progetti orientati al paradigma Data Warehouse devono:
+
+Prevedere la ricerca online di uno o più dataset pubblici contenenti dati consolidati e storicizzati (attenzione: non è richiesto un contesto OLTP), da utilizzare come miniworld per costruire un contesto informativo significativo;
+Utilizzare uno dei tool dedicati al Data Warehousing presentati durante il corso (es. Pentaho);
+Progettare uno schema dimensionale, preferibilmente a stella, composto da una tabella dei fatti e almeno due dimensioni, con relazioni chiare e l’uso corretto di chiavi primarie e chiavi esterne;
+Implementare un processo ETL completo (utilizzando Kettle), che includa: estrazione e pulizia dei dati dai dataset scelti, trasformazione dei dati in tabelle coerenti con il modello progettato, e caricamento nel sistema finale;
+Consentire interrogazioni OLAP, come drill-down, roll-up, slice e dice, su indicatori quantitativi della tabella dei fatti;
+Prevedere la pubblicazione dello schema sul server Pentaho, in modo da permettere all’utente di utilizzare il cubo OLAP, ovvero selezionare dimensioni e misure per esplorare i dati tramite grafici, tabelle o viste aggregate.
+Un esempio di progetto potrebbe essere lo scaricamento di dataset open source scaricato dal portale ISTAT (ad esempio, contenente dati storici sulle presenze turistiche suddivise per regione, tipo di struttura, provenienza del turista, e periodo) e la sua successiva analisi in termini di business intelligence.
+
+Progetti Ambiziosi (Lista in aggiornamento)
+Quest'anno verranno proposti diversi progetti ambiziosi! La lista dei progetti è disponibile in una sezione apposita della piattaforma, nella home ovvero qui.
+
+Materiale da produrre
+Per i progetti di tipo NoSQL classico e Data Warehouse resta richiesto:
+
+un documento descrittivo del progetto in formato professionale;
+una demo o proof of concept.
+Per il progetto proposto dal docente, i task, i vincoli e il materiale da produrre saranno descritti nei documenti. (Eventualmente qualche gruppo fosse già interessato, il link permettere di leggere e aggiungere suggerimenti o richieste di chiarimenti). 
